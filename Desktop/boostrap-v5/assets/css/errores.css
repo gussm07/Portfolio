@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url("../webfonts/fa-solid-900.eot");
+    src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg");
+  }
+
+
+/* ERROR WINDOW */
+
+.modal_wrap{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .mensaje_modal{
+    background: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    padding: 30px 20px 15px;
+  }
+  
+  .mensaje_modal h3{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .mensaje_modal h3:after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #c5c5c5;
+    margin: 10px 0px 15px;
+  }
+  
+  .mensaje_modal p{
+    font-size: 16px;
+    color: #606060;
+  }
+  
+  .mensaje_modal p:before{
+    content: "\f00d";
+    font-family: FontAwesome;
+    display: inline-block;
+    color: #E25151;
+    margin-right: 8px;
+  }
+  
+  .mensaje_modal #btnClose{
+      display: inline-block;
+      padding: 3px 10px;
+      margin-top: 10px;
+
+      background: #E25151;
+      color: white;
+      border: 2px solid #B14141;
+      cursor: pointer;
+
+      float: right;
+  }
+  
+  
+  /* END ERRORS WINDOW */
+
+
+
+  /* MENSAJE EXITOSO */
+
+  .mensaje-exitoso{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mensaje-exitoso h1{
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .mensaje-exitoso a{
+    display: block;
+    padding: 10px 30px;
+    background: #4091EC;
+    text-decoration: none;
+    color: white;
+  }
+
+  /* TERMINA MENSAJE EXITOSO */
