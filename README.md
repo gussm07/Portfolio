@@ -1,1 +1,1 @@
-![PREVIEW PORTFOLIO](/Portfolio/Desktop/bootstrap-v5/imags/Preview.jpg)
+![PREVIEW PORTFOLIO](/Portfolio/Desktop/boostrap-v5/images/Preview.png)
